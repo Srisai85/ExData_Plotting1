@@ -28,7 +28,7 @@ plot(power$TimeDate,power$Voltage, type="l", xlab="datetime",
      ylab="Voltage")
 
 
-plot(power$TimeDate,power$Sub_metering_1, type="l",col="red",xlab="",
+plot(power$TimeDate,power$Sub_metering_1, type="l",col="black",xlab="",
      ylab="Energy sub metering")
 lines(power$TimeDate,power$Sub_metering_2, type="l",col="red")
 lines(power$TimeDate,power$Sub_metering_3, type="l",col="blue")

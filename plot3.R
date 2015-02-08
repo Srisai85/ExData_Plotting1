@@ -18,7 +18,7 @@ power <- power_data[power_data$TimeDate >= start & power_data$TimeDate <= end, ]
 # Make line plot
 # Save as PNG file names plot1.png with resulotion of 480 pixels
 png(filename="plot3.png", width=480, height=480,bg = "transparent")
-plot(power$TimeDate,power$Sub_metering_1, type="l",col="red",xlab="",
+plot(power$TimeDate,power$Sub_metering_1, type="l",col="black",xlab="",
      ylab="Energy sub metering")
 lines(power$TimeDate,power$Sub_metering_2, type="l",col="red")
 lines(power$TimeDate,power$Sub_metering_3, type="l",col="blue")
